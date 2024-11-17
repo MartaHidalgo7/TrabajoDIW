@@ -1,137 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
-
-    <!-- estilo de fuente manrope en fonts.google -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- hoja de estilos -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- fuente manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Index</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- HEADER -->
     <header>
-        <div class="contenedor-header">
-            <img alt="" src="logo.png" class="img-header">
-            <div class="enlaces-header">
-                <a href="#"><b>EXPERENCIAS</b></a>
-                <a href="#"><b>NOSOTROS</b></a>
-                <a href="#"><b>CONTACTO</b></a>
-            </div>
-            <button name="contacta" class="boton-header"><b>CONTACTA CON NOSOTROS</b> </button>
+      <div class="header">
+        <a href="index.html"
+          ><img src="media/logo3trips.png" class="img-header"
+        /></a>
+        <div class="enlaces-header">
+          <a href="#" class="menu-link desplegable">EXPERIENCIAS</a>
+          <a href="#" class="menu-link">NOSOTROS</a>
         </div>
+        <a href="#" class="boton-wrapper">
+          <p class="button-font">CONTACTA CON NOSOTROS</p>
+        </a>
+      </div>
     </header>
 
-    <section>
-        <img alt="imagen" src="coliseo_roma_888.jpg"  width="100%" height="250" style="object-fit: cover;" />
-        <h1>DEJA QUE TE GUIEMOS PREOCÚPATE SOLO DE DISFRUTAR</h1>
+    <!-- SLIDER -->
+
+    <section name="slider">
+      <div class="slider">
+        <h1 class="slider-text">
+          DEJA QUE TE GUIEMOS, PREOCÚPATE SOLO DE DISFRUTAR
+        </h1>
+      </div>
     </section>
-    <section>
-        <h2 style="text-align: center;border-bottom:1px solid black;">NUESTRAS 3 EXPERIENCIAS</h2>
-        <div class="contendor-tarjetas">
-            <div class="tarjeta">
-                <img src="tokio.webp" alt="Imagen de prueba">
 
+    <section name="experiencias">
+      <!-- TITLE -->
 
-                <div class="header-tarjeta">
-                    <div>
-                        <h3>TOKIO</h3>
-                        <span class="subtitulo">La gran ciudad tecnológica</span>
-                    </div>
-                    <div class="precio-tarjeta">
-                        <span class="subtitulo">desde</span> <b>
-                            599€
-                        </b>
-                    </div>
-                </div>
-                <div class="info-tarjeta">
-                    <div class="paquete">
-                        <span>3</span>
-                        <span>noches</span>
-                    </div>
-                    <div class="paquete">
-                        <span>3</span>
-                        <span>noches</span>
-                    </div>
-                    <div class="paquete">
-                        <span>3</span>
-                        <span>noches</span>
-                    </div>
-                </div>
-
-            </div>
-            <div class="tarjeta">
-                <img src="roma.webp" alt="Imagen de prueba">
-
-
-                <div class="header-tarjeta">
-                    <div>
-                        <h3>ROMA</h3>
-                        <span class="subtitulo">La gran ciudad de la arquitectura</span>
-                    </div>
-                    <div class="precio-tarjeta">
-                        <span class="subtitulo">desde</span> <b>
-                            499€
-                        </b>
-                    </div>
-                </div>
-                <div class="info-tarjeta">
-                    <div class="paquete">
-                        <span>4</span>
-                        <span>noches</span>
-                    </div>
-                    <div class="paquete">
-                        <span>3</span>
-                        <span>noches</span>
-                    </div>
-                    <div class="paquete">
-                        <span>5</span>
-                        <span>noches</span>
-                    </div>
-                </div>
-
-            </div>
-            <div class="tarjeta">
-                <img src="fiji.webp" alt="Imagen de prueba">
-
-
-                <div class="header-tarjeta">
-                    <div>
-                        <h3>FIJI</h3>
-                        <span class="subtitulo">Un paraiso a tu alcance</span>
-                    </div>
-                    <div class="precio-tarjeta">
-                        <span class="subtitulo">desde</span> <b>
-                            999€
-                        </b>
-                    </div>
-                </div>
-                <div class="info-tarjeta">
-                    <div class="paquete">
-                        <span>3</span>
-                        <span>noches</span>
-                    </div>
-                    <div class="paquete">
-                        <span>3</span>
-                        <span>noches</span>
-                    </div>
-                    <div class="paquete">
-                        <span>3</span>
-                        <span>noches</span>
-                    </div>
-                </div>
-
-            </div>
+      <div class="title">
+        <div class="title-container">
+          <h2 class="title-text">NUESTRAS 3 EXPERIENCIAS</h2>
         </div>
-    </section>
-    <footer>
-        <p>Footer</p>
-        <p>C/Artes Gráficas 16 46010 Valencia</p>
-    </footer>
-</body>
+      </div>
 
+      <!-- CARDS -->
+
+      <div class="cards-container">
+        <a href="#" class="tarjeta-link">
+          <div name="tokio" class="tarjeta">
+            <div class="img-tarjeta img-tarjeta-tokio"></div>
+            <div class="tarjeta-1">
+              <div class="texto-tarjeta">
+                <h3 class="titulo-tarjeta">TOKIO</h3>
+                <span class="subtitulo-tarjeta"
+                  >La gran ciudad tecnológica</span
+                >
+              </div>
+              <div class="precio">
+                <div class="precio-content">
+                  <p class="subtitulo-tarjeta">desde</p>
+                  <p class="titulo-tarjeta">599€</p>
+                </div>
+              </div>
+            </div>
+            <div class="tarjeta-2">
+              <div class="paquete">
+                <span class="extras-1">4</span>
+                <span class="extras-2">estancias</span>
+              </div>
+              <div class="paquete">
+                <span class="extras-1">3</span>
+                <span class="extras-2">aerolíneas</span>
+              </div>
+              <div class="paquete">
+                <span class="extras-1">2</span>
+                <span class="extras-2">extras</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="tarjeta-link">
+          <div name="roma" class="tarjeta">
+            <div class="img-tarjeta img-tarjeta-roma"></div>
+            <div class="tarjeta-1">
+              <div class="texto-tarjeta">
+                <h3 class="titulo-tarjeta">ROMA</h3>
+                <span class="subtitulo-tarjeta"
+                  >La gran ciudad de la arquitectura</span
+                >
+              </div>
+              <div class="precio">
+                <div class="precio-content">
+                  <p class="subtitulo-tarjeta">desde</p>
+                  <p class="titulo-tarjeta">499€</p>
+                </div>
+              </div>
+            </div>
+            <div class="tarjeta-2">
+              <div class="paquete">
+                <span class="extras-1">3</span>
+                <span class="extras-2">estancias</span>
+              </div>
+              <div class="paquete">
+                <span class="extras-1">4</span>
+                <span class="extras-2">aerolíneas</span>
+              </div>
+              <div class="paquete">
+                <span class="extras-1">3</span>
+                <span class="extras-2">extras</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="tarjeta-link">
+          <div name="fiji" class="tarjeta">
+            <div class="img-tarjeta img-tarjeta-fiji"></div>
+            <div class="tarjeta-1">
+              <div class="texto-tarjeta">
+                <h3 class="titulo-tarjeta">FIJI</h3>
+                <span class="subtitulo-tarjeta">Un paraiso a tu alcance</span>
+              </div>
+              <div class="precio">
+                <div class="precio-content">
+                  <p class="subtitulo-tarjeta">desde</p>
+                  <p class="titulo-tarjeta">999€</p>
+                </div>
+              </div>
+            </div>
+            <div class="tarjeta-2">
+              <div class="paquete">
+                <span class="extras-1">2</span>
+                <span class="extras-2">estancias</span>
+              </div>
+              <div class="paquete">
+                <span class="extras-1">2</span>
+                <span class="extras-2">aerolíneas</span>
+              </div>
+              <div class="paquete">
+                <span class="extras-1">4</span>
+                <span class="extras-2">extras</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <div class="logo-footer">
+        <a href="index.html" class="link-img-footer"
+          ><img src="media/logo3trips.png" class="img-footer"
+        /></a>
+      </div>
+
+      <div class="direccion-footer">
+        <p class="texto-footer">C/Artes gráficas 16,46010 Valencia</p>
+      </div>
+      <div class="icono-telefono"></div>
+      <div class="telefono">
+        <span>961201467</span>
+      </div>
+      <div class="condiciones-legales">
+        <a href="#"><p class="texto-footer">Condiciones legales</p></a>
+      </div>
+    </footer>
+  </body>
 </html>
